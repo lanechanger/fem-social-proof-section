@@ -1,0 +1,25 @@
+.rating {
+  background-color: $lightGrayishMagenta;
+  color: $veryDarkMagenta;
+  border-radius: rem(8px);
+  padding: rem(16px) 0;
+
+  &__stars {}
+
+  &__star {
+    &:not(:first-child) {
+      margin-left: rem(4px);
+    }
+  }
+
+  &__text {
+    margin-top: rem(8.25px);
+    font-weight: 700;
+    font-size: rem(13px);
+    line-height: rem(15px);
+  }
+
+  &:not(:first-child) {
+    margin-top: rem(16px);
+  }
+}

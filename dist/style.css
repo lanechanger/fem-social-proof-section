@@ -45,6 +45,28 @@ body {
   align-items: center;
 }
 
+.rating {
+  background-color: #f7f2f7;
+  color: #502050;
+  border-radius: 0.5rem;
+  padding: 1rem 0;
+}
+
+.rating__star:not(:first-child) {
+  margin-left: 0.25rem;
+}
+
+.rating__text {
+  margin-top: 0.51562rem;
+  font-weight: 700;
+  font-size: 0.8125rem;
+  line-height: 0.9375rem;
+}
+
+.rating:not(:first-child) {
+  margin-top: 1rem;
+}
+
 .l-header > h1 {
   font-weight: 700;
   font-size: 2rem;
