@@ -12,7 +12,10 @@ html {
 }
 
 body {
-  background-color: red;
+  font-family: 'Spartan', sans-serif;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  text-align: center;
 }
 
 .attribution {
@@ -22,5 +25,32 @@ body {
 
 .attribution a {
   color: #3e52a3;
+}
+
+.l-header {
+  margin-top: 5rem;
+}
+
+.l-site-container {
+  margin: 1.5rem;
+}
+
+.l--flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.l-heading > h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1;
+  letter-spacing: -0.07143rem;
+}
+
+.l-heading > p {
+  font-weight: 500;
+  line-height: calc(25/15);
+  letter-spacing: -0.03125rem;
 }
 /*# sourceMappingURL=style.css.map */

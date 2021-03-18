@@ -1,0 +1,15 @@
+.l- {
+  &header {
+    margin-top: rem(80px);
+  }
+
+  &site-container {
+    margin: rem(24px);
+  }
+
+  &-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
