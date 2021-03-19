@@ -7,11 +7,32 @@
     margin-top: rem(40px);
   }
 
+  &cards {
+    margin-top: rem(49px);
+  }
+
   &site-container {
     margin: rem(24px);
   }
 
-  &-flex-center {
+  &flex-row {
+    display: flex;
+  }
+
+  &flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &flex-col-sm-row-lg {
+    display: flex;
+
+    @include breakpoint-down(small) {
+      flex-direction: column;
+    }
+  }
+
+  &flex-center {
     display: flex;
     justify-content: center;
     align-items: center;
