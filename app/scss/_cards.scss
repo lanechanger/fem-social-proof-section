@@ -1,0 +1,33 @@
+.card {
+  background-color: $veryDarkMagenta;
+  color: white;
+  border-radius: rem(8px);
+  padding: rem(40px) rem(32px) rem(32px) rem(32px);
+  font-size: rem(13px);
+
+  &__header {}
+
+  &__portrait {}
+
+  &__person {}
+
+  &__name {
+    font-weight: 700;
+  }
+
+  &__role {
+    color: $softPink;
+  }
+
+  &__testimonial {
+    display: inline-block;
+    margin-top: rem(26px);
+    font-weight: 500;
+    line-height: calc(22/13);
+    letter-spacing: rem(-0.232143px);
+  }
+
+  &:not(:first-child) {
+    margin-top: rem(16px);
+  }
+}
