@@ -99,11 +99,21 @@ body {
   text-align: left;
 }
 
+.card__portrait {
+  border-radius: 50%;
+  max-width: 2.5rem;
+}
+
+.card__person {
+  margin-left: 1.4375rem;
+}
+
 .card__name {
   font-weight: 700;
 }
 
 .card__role {
+  margin-top: 0.3125rem;
   color: #ee68a4;
 }
 
@@ -112,7 +122,7 @@ body {
   margin-top: 1.625rem;
   font-weight: 500;
   line-height: calc(22/13);
-  letter-spacing: -0.01451rem;
+  letter-spacing: -0.01615rem;
 }
 
 .card:not(:first-child) {

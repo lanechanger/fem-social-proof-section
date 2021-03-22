@@ -8,15 +8,21 @@
 
   &__header {}
 
-  &__portrait {}
+  &__portrait {
+    border-radius: 50%;
+    max-width: rem(40px);
+  }
 
-  &__person {}
+  &__person {
+    margin-left: rem(23px);
+  }
 
   &__name {
     font-weight: 700;
   }
 
   &__role {
+    margin-top: rem(5px);
     color: $softPink;
   }
 
@@ -25,7 +31,7 @@
     margin-top: rem(26px);
     font-weight: 500;
     line-height: calc(22/13);
-    letter-spacing: rem(-0.232143px);
+    letter-spacing: rem(-0.25834px);
   }
 
   &:not(:first-child) {
