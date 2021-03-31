@@ -16,7 +16,7 @@ body {
   font-size: 0.9375rem;
   line-height: 1.5;
   text-align: center;
-  background-image: url(/images/bg-pattern-bottom-mobile.svg);
+  background: url(/images/bg-pattern-top-mobile.svg) no-repeat;
 }
 
 .attribution {
@@ -30,7 +30,7 @@ body {
 }
 
 .l-header {
-  margin-top: 5rem;
+  margin-top: 3.5rem;
 }
 
 .l-ratings {
