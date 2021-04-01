@@ -16,7 +16,8 @@ body {
   font-size: 0.9375rem;
   line-height: 1.5;
   text-align: center;
-  background: url(/images/bg-pattern-top-mobile.svg) no-repeat;
+  background: url(/images/bg-pattern-top-mobile.svg) top, url(/images/bg-pattern-bottom-mobile.svg) bottom;
+  background-repeat: no-repeat;
 }
 
 .attribution {
