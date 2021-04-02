@@ -5,6 +5,10 @@
 
   &ratings {
     margin-top: rem(40px);
+
+    @include breakpoint-up(medium) {
+      margin-left: rem(125px);
+    }
   }
 
   &cards {

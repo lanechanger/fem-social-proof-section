@@ -46,6 +46,12 @@ body {
   margin-top: 2.5rem;
 }
 
+@media screen and (min-width: 640px) {
+  .l-ratings {
+    margin-left: 7.8125rem;
+  }
+}
+
 .l-cards {
   margin-top: 3.0625rem;
 }
