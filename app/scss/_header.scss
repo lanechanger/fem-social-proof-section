@@ -5,6 +5,11 @@
     line-height: 1;
     letter-spacing: rem(-1.14286px);
     color: $veryDarkMagenta;
+
+    @include breakpoint-up(medium) {
+      font-size: rem(48px);
+      letter-spacing: rem(-1.71429px);
+    }
   }
 
   p {
@@ -13,5 +18,9 @@
     line-height: calc(25/15);
     letter-spacing: rem(-0.5px);
     color: $darkGrayishMagenta;
+
+    @include breakpoint-up(medium) {
+      margin-top: rem(6px);
+    }
   }
 }
