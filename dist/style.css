@@ -20,6 +20,13 @@ body {
   background-repeat: no-repeat;
 }
 
+@media screen and (min-width: 640px) {
+  body {
+    background: url(/images/bg-pattern-top-desktop.svg) top, url(/images/bg-pattern-bottom-desktop.svg) bottom;
+    background-repeat: no-repeat;
+  }
+}
+
 .attribution {
   margin-top: 1rem;
   font-size: 11px;
@@ -44,6 +51,14 @@ body {
 
 .l-site-container {
   margin: 1.5rem;
+  width: 87vw;
+  width: clamp(20.39062rem, 87vw, 80.875rem);
+}
+
+@media screen and (max-width: 639px) {
+  .l-site-container {
+    margin: auto;
+  }
 }
 
 .l-flex-row {
