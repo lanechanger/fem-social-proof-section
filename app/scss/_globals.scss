@@ -18,6 +18,11 @@ body {
   text-align: center;
   background: url(/images/bg-pattern-top-mobile.svg) top, url(/images/bg-pattern-bottom-mobile.svg) bottom;
   background-repeat: no-repeat;
+
+  @include breakpoint-up(medium) {
+    background: url(/images/bg-pattern-top-desktop.svg) top, url(/images/bg-pattern-bottom-desktop.svg) bottom;
+    background-repeat: no-repeat;
+  }
 }
 
 .attribution {
