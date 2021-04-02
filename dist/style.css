@@ -95,11 +95,17 @@ body {
   align-items: center;
 }
 
-.rating {
+.rating, .rating__1, .rating__2, .rating__3 {
   background-color: #f7f2f7;
   color: #502050;
   border-radius: 0.5rem;
   padding: 1rem 0;
+}
+
+@media screen and (min-width: 640px) {
+  .rating__stars {
+    margin-left: 2rem;
+  }
 }
 
 .rating__star:not(:first-child) {
@@ -113,8 +119,32 @@ body {
   line-height: 0.9375rem;
 }
 
-.rating:not(:first-child) {
+@media screen and (min-width: 640px) {
+  .rating__text {
+    margin-left: 2rem;
+    margin-top: 0;
+  }
+}
+
+.rating:not(:first-child), .rating__1:not(:first-child), .rating__2:not(:first-child), .rating__3:not(:first-child) {
   margin-top: 1rem;
+}
+
+.rating__2 {
+  margin-left: 2.96875rem;
+}
+
+.rating__3 {
+  margin-left: 5.9375rem;
+}
+
+@media screen and (min-width: 640px) {
+  .rating, .rating__1, .rating__2, .rating__3 {
+    width: clamp(27.8125rem, 27.8125rem, 27.8125rem);
+    min-height: 3.5rem;
+    padding: 0;
+    align-items: center;
+  }
 }
 
 .card {

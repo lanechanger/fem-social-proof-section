@@ -4,7 +4,11 @@
   border-radius: rem(8px);
   padding: rem(16px) 0;
 
-  // &__stars {}
+  &__stars {
+    @include breakpoint-up(medium) {
+      margin-left: rem(32px);
+    }
+  }
 
   &__star {
     &:not(:first-child) {
@@ -17,9 +21,35 @@
     font-weight: 700;
     font-size: rem(13px);
     line-height: rem(15px);
+
+    @include breakpoint-up(medium) {
+      margin-left: rem(32px);
+      margin-top: 0;
+    }
   }
 
   &:not(:first-child) {
     margin-top: rem(16px);
+  }
+
+  &__1 {
+    @extend .rating;
+  }
+
+  &__2 {
+    @extend .rating;
+    margin-left: rem(47.5px);
+  }
+
+  &__3 {
+    @extend .rating;
+    margin-left: rem(95px);
+  }
+
+  @include breakpoint-up(medium) {
+    width: clamp(rem(445px), rem(445px), rem(445px));
+    min-height: rem(56px);
+    padding: 0;
+    align-items: center;
   }
 }
