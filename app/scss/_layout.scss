@@ -19,6 +19,10 @@
 
   &cards {
     margin-top: rem(33px);
+
+    @include breakpoint-up(medium) {
+      margin-top: rem(72px);
+    }
   }
 
   &site-container {
