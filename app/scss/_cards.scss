@@ -5,6 +5,7 @@
   padding: rem(40px) rem(32px) rem(32px) rem(32px);
   font-size: rem(13px);
   text-align: left;
+  margin-top: rem(16px);
 
   &__header {}
 
@@ -34,7 +35,14 @@
     letter-spacing: rem(-0.25834px);
   }
 
-  &:not(:first-child) {
-    margin-top: rem(16px);
+  @for $i from 1 through 3 {
+    &__#{$i} {
+      @extend .card;
+
+      @include breakpoint-up(medium) {
+        margin-top: rem(16px * ($i - 1));
+        margin-right: 1px * $i;
+      }
+    }
   }
 }
