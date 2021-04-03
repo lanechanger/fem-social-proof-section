@@ -201,21 +201,27 @@ body {
 @media screen and (min-width: 640px) {
   .card__1 {
     margin-top: 0rem;
-    margin-right: 1px;
   }
 }
 
 @media screen and (min-width: 640px) {
   .card__2 {
     margin-top: 1rem;
-    margin-right: 2px;
+    margin-left: 1.875rem;
   }
 }
 
 @media screen and (min-width: 640px) {
   .card__3 {
     margin-top: 2rem;
-    margin-right: 3px;
+    margin-left: 1.875rem;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .card, .card__1, .card__2, .card__3 {
+    height: clamp(14.625rem, 14.625rem, 14.625rem);
+    max-width: 21.875rem;
   }
 }
 

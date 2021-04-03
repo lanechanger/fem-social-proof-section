@@ -41,8 +41,16 @@
 
       @include breakpoint-up(medium) {
         margin-top: rem(16px * ($i - 1));
-        margin-right: 1px * $i;
+
+        @if $i>1 {
+          margin-left: rem(30px);
+        }
       }
     }
+  }
+
+  @include breakpoint-up(medium) {
+    height: clamp(rem(234px), rem(234px), rem(234px));
+    max-width: rem(350px);
   }
 }
