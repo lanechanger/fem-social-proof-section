@@ -1,6 +1,10 @@
 .l- {
   &header {
     margin-top: rem(56px);
+
+    @include breakpoint-up(medium) {
+      text-align: left;
+    }
   }
 
   &ratings {
