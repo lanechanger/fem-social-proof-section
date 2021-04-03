@@ -32,18 +32,11 @@
     margin-top: rem(16px);
   }
 
-  &__1 {
-    @extend .rating;
-  }
-
-  &__2 {
-    @extend .rating;
-    margin-left: rem(47.5px);
-  }
-
-  &__3 {
-    @extend .rating;
-    margin-left: rem(95px);
+  @for $i from 1 through 3 {
+    &__#{$i} {
+      @extend .rating;
+      margin-left: rem(47.5px * ($i - 1));
+    }
   }
 
   @include breakpoint-up(medium) {

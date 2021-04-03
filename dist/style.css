@@ -130,6 +130,10 @@ body {
   margin-top: 1rem;
 }
 
+.rating__1 {
+  margin-left: 0rem;
+}
+
 .rating__2 {
   margin-left: 2.96875rem;
 }
