@@ -12,7 +12,8 @@ html {
 }
 
 body {
-  height: 100%;
+  height: 100vh;
+  min-height: 100%;
   font-family: 'Spartan', sans-serif;
   font-size: rem(15px);
   line-height: 1.5;

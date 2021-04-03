@@ -50,7 +50,8 @@
   }
 
   @include breakpoint-up(medium) {
-    height: clamp(rem(234px), rem(234px), rem(234px));
+    height: clamp(rem(234px), 100%, rem(234px));
     max-width: rem(350px);
+    padding: rem(40px) rem(32px) rem(40px) rem(32px);
   }
 }
