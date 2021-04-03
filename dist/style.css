@@ -45,16 +45,18 @@ body {
 @media screen and (min-width: 640px) {
   .l-header {
     text-align: left;
+    margin-top: 0;
   }
 }
 
 .l-ratings {
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
 }
 
 @media screen and (min-width: 640px) {
   .l-ratings {
     margin-left: 7.8125rem;
+    margin-top: 0;
   }
 }
 
@@ -106,6 +108,7 @@ body {
   color: #502050;
   border-radius: 0.5rem;
   padding: 1rem 0;
+  margin-top: 1rem;
 }
 
 @media screen and (min-width: 640px) {
@@ -130,10 +133,6 @@ body {
     margin-left: 2rem;
     margin-top: 0;
   }
-}
-
-.rating:not(:first-child), .rating__1:not(:first-child), .rating__2:not(:first-child), .rating__3:not(:first-child) {
-  margin-top: 1rem;
 }
 
 @media screen and (min-width: 640px) {

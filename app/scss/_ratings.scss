@@ -3,6 +3,7 @@
   color: $veryDarkMagenta;
   border-radius: rem(8px);
   padding: rem(16px) 0;
+  margin-top: rem(16px);
 
   &__stars {
     @include breakpoint-up(medium) {
@@ -26,10 +27,6 @@
       margin-left: rem(32px);
       margin-top: 0;
     }
-  }
-
-  &:not(:first-child) {
-    margin-top: rem(16px);
   }
 
   @for $i from 1 through 3 {
