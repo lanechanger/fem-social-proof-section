@@ -47,7 +47,7 @@ body {
   .l-header {
     text-align: left;
     margin-top: 0;
-    flex: 0 1 445px;
+    flex: 0 1 27.8125rem;
   }
 }
 
@@ -58,7 +58,7 @@ body {
 @media screen and (min-width: 640px) {
   .l-ratings {
     margin-top: 0;
-    width: 33.75rem;
+    flex: 0 1 33.75rem;
   }
 }
 

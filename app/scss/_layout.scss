@@ -5,7 +5,7 @@
     @include breakpoint-up(medium) {
       text-align: left;
       margin-top: 0;
-      flex: 0 1 445px;
+      flex: 0 1 rem(445px);
     }
   }
 
@@ -14,7 +14,7 @@
 
     @include breakpoint-up(medium) {
       margin-top: 0;
-      width: rem(540px);
+      flex: 0 1 rem(540px);
     }
   }
 
