@@ -104,10 +104,12 @@ body {
   }
 }
 
-.l-flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media screen and (min-width: 640px) {
+  .l-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .rating, .rating__1, .rating__2, .rating__3 {
