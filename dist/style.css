@@ -58,6 +58,7 @@ body {
 @media screen and (min-width: 640px) {
   .l-ratings {
     margin-top: 0;
+    width: 33.75rem;
   }
 }
 
@@ -118,7 +119,7 @@ body {
   }
 }
 
-.rating, .rating__1, .rating__2, .rating__3 {
+.rating {
   background-color: #f7f2f7;
   color: #502050;
   border-radius: 0.5rem;
@@ -152,24 +153,24 @@ body {
 
 @media screen and (min-width: 640px) {
   .rating__1 {
-    margin-left: 0rem;
+    justify-content: start;
   }
 }
 
 @media screen and (min-width: 640px) {
   .rating__2 {
-    margin-left: 2.96875rem;
+    justify-content: center;
   }
 }
 
 @media screen and (min-width: 640px) {
   .rating__3 {
-    margin-left: 5.9375rem;
+    justify-content: end;
   }
 }
 
 @media screen and (min-width: 640px) {
-  .rating, .rating__1, .rating__2, .rating__3 {
+  .rating {
     width: clamp(27.8125rem, 27.8125rem, 27.8125rem);
     min-height: 3.5rem;
     padding: 0;

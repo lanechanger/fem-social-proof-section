@@ -29,13 +29,34 @@
     }
   }
 
-  @for $i from 1 through 3 {
-    &__#{$i} {
-      @extend .rating;
+  // Old way of styling with a loop and incremental margin for each new item
+  // this would scale with additional items but I opted for a flex layout
+  // that strictly works with 3 items but allows for more flexible spacing
+  // @for $i from 1 through 3 {
+  //   &__#{$i} {
+  //     @extend .rating;
 
-      @include breakpoint-up(medium) {
-        margin-left: rem(47.5px * ($i - 1));
-      }
+  //     @include breakpoint-up(medium) {
+  //       margin-left: rem(47.5px * ($i - 1));
+  //     }
+  //   }
+  // }
+
+  &__1 {
+    @include breakpoint-up(medium) {
+      justify-content: start;
+    }
+  }
+
+  &__2 {
+    @include breakpoint-up(medium) {
+      justify-content: center;
+    }
+  }
+
+  &__3 {
+    @include breakpoint-up(medium) {
+      justify-content: end;
     }
   }
 
