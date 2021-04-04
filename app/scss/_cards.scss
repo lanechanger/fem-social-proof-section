@@ -44,7 +44,7 @@
         margin-top: rem(16px * ($i - 1));
 
         @if $i>1 {
-          margin-left: rem(30px);
+          margin-left: rem(8px);
         }
       }
     }
