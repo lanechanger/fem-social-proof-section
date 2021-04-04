@@ -11,7 +11,8 @@
 
   &__portrait {
     border-radius: 50%;
-    max-width: rem(40px);
+    width: clamp(rem(40px), 100%, rem(40px));
+    height: clamp(rem(40px), 100%, rem(40px));
   }
 
   &__person {

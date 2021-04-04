@@ -181,7 +181,8 @@ body {
 
 .card__portrait {
   border-radius: 50%;
-  max-width: 2.5rem;
+  width: clamp(2.5rem, 100%, 2.5rem);
+  height: clamp(2.5rem, 100%, 2.5rem);
 }
 
 .card__person {
