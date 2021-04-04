@@ -129,7 +129,8 @@ body {
 
 @media screen and (min-width: 640px) {
   .rating__stars {
-    margin-left: 2rem;
+    padding: 0 1rem;
+    flex: 0 1 11.3125rem;
   }
 }
 
@@ -146,8 +147,8 @@ body {
 
 @media screen and (min-width: 640px) {
   .rating__text {
-    margin-left: 2rem;
     margin-top: 0;
+    padding-right: 1rem;
   }
 }
 
@@ -171,7 +172,8 @@ body {
 
 @media screen and (min-width: 640px) {
   .rating {
-    width: clamp(27.8125rem, 27.8125rem, 27.8125rem);
+    justify-content: start;
+    flex: 0 1 27.8125rem;
     min-height: 3.5rem;
     padding: 0;
     align-items: center;

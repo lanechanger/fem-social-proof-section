@@ -7,7 +7,8 @@
 
   &__stars {
     @include breakpoint-up(medium) {
-      margin-left: rem(32px);
+      padding: 0 rem(16px);
+      flex: 0 1 rem(181px);
     }
   }
 
@@ -24,8 +25,8 @@
     line-height: rem(15px);
 
     @include breakpoint-up(medium) {
-      margin-left: rem(32px);
       margin-top: 0;
+      padding-right: rem(16px);
     }
   }
 
@@ -61,7 +62,9 @@
   }
 
   @include breakpoint-up(medium) {
-    width: clamp(rem(445px), rem(445px), rem(445px));
+    // width: clamp(rem(445px), rem(445px), rem(445px));
+    justify-content: start;
+    flex: 0 1 rem(445px);
     min-height: rem(56px);
     padding: 0;
     align-items: center;
