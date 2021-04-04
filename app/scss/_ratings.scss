@@ -4,6 +4,7 @@
   border-radius: rem(8px);
   padding: rem(16px) 0;
   margin-top: rem(16px);
+  flex: 1;
 
   &__stars {
     @include breakpoint-up(medium) {
