@@ -18,9 +18,5 @@
     line-height: calc(25/15);
     letter-spacing: rem(-0.5px);
     color: $darkGrayishMagenta;
-
-    @include breakpoint-up(medium) {
-      margin-top: rem(6px);
-    }
   }
 }
