@@ -47,6 +47,7 @@ body {
   .l-header {
     text-align: left;
     margin-top: 0;
+    flex: 0 1 445px;
   }
 }
 
@@ -56,7 +57,6 @@ body {
 
 @media screen and (min-width: 640px) {
   .l-ratings {
-    margin-left: 7.8125rem;
     margin-top: 0;
   }
 }
@@ -68,7 +68,6 @@ body {
 @media screen and (min-width: 640px) {
   .l-cards {
     margin-top: 4.5rem;
-    justify-content: space-between;
   }
 }
 
@@ -110,6 +109,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .l-space-between {
+    justify-content: space-between;
   }
 }
 

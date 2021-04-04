@@ -5,6 +5,7 @@
     @include breakpoint-up(medium) {
       text-align: left;
       margin-top: 0;
+      flex: 0 1 445px;
     }
   }
 
@@ -12,7 +13,6 @@
     margin-top: rem(24px);
 
     @include breakpoint-up(medium) {
-      margin-left: rem(125px);
       margin-top: 0;
     }
   }
@@ -22,7 +22,6 @@
 
     @include breakpoint-up(medium) {
       margin-top: rem(72px);
-      justify-content: space-between;
     }
   }
 
@@ -60,6 +59,12 @@
       display: flex;
       justify-content: center;
       align-items: center;
+    }
+  }
+
+  &space-between {
+    @include breakpoint-up(medium) {
+      justify-content: space-between;
     }
   }
 }
