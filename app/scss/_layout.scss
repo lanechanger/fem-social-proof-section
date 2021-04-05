@@ -3,9 +3,11 @@
     margin-top: rem(56px);
 
     @include breakpoint-up(medium) {
-      text-align: left;
-      margin-top: 0;
+      -webkit-box-flex: 0;
+      -ms-flex: 0 1 rem(445px);
       flex: 0 1 rem(445px);
+      margin-top: 0;
+      text-align: left;
     }
   }
 
@@ -13,9 +15,13 @@
     margin-top: rem(40px);
 
     @include breakpoint-up(medium) {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 1 rem(540px);
+      flex: 0 1 rem(540px);
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
       justify-content: center;
       margin-top: 0;
-      flex: 0 1 rem(540px);
     }
   }
 
@@ -29,42 +35,64 @@
 
   &site-container {
     margin: rem(24px) auto;
-    width: 77vw;
     min-width: rem(327px);
+    width: 77vw;
 
     @include breakpoint-up(medium) {
-      padding: rem(127px) rem(32px) rem(62px) rem(32px);
+      -webkit-box-flex: 0;
+      -ms-flex: 0 1 rem(1110px);
       flex: 0 1 rem(1110px);
+      padding: rem(127px) rem(32px) rem(62px) rem(32px);
     }
   }
 
   &flex-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 
   &flex-column {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
 
   &flex-col-sm-row-lg {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 
     @include breakpoint-down(small) {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
       flex-direction: column;
     }
   }
 
   &flex-center {
     @include breakpoint-up(medium) {
-      display: flex;
-      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
     }
   }
 
   &space-between {
     @include breakpoint-up(medium) {
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
       justify-content: space-between;
     }
   }

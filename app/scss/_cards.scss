@@ -1,16 +1,16 @@
 .card {
   background-color: $veryDarkMagenta;
-  color: white;
   border-radius: rem(8px);
-  padding: rem(40px) rem(32px) rem(32px) rem(32px);
+  color: white;
   font-size: rem(13px);
-  text-align: left;
   margin-top: rem(16px);
+  padding: rem(40px) rem(32px) rem(32px) rem(32px);
+  text-align: left;
 
   &__portrait {
     border-radius: 50%;
-    width: clamp(rem(40px), 100%, rem(40px));
     height: clamp(rem(40px), 100%, rem(40px));
+    width: clamp(rem(40px), 100%, rem(40px));
   }
 
   &__person {
@@ -22,16 +22,16 @@
   }
 
   &__role {
-    margin-top: rem(5px);
     color: $softPink;
+    margin-top: rem(5px);
   }
 
   &__testimonial {
     display: inline-block;
-    margin-top: rem(26px);
     font-weight: 500;
-    line-height: calc(22/13);
     letter-spacing: rem(-0.25834px);
+    line-height: calc(22/13);
+    margin-top: rem(26px);
   }
 
   @for $i from 1 through 3 {

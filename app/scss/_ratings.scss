@@ -1,14 +1,18 @@
 .rating {
   background-color: $lightGrayishMagenta;
-  color: $veryDarkMagenta;
   border-radius: rem(8px);
-  padding: rem(16px) 0;
+  color: $veryDarkMagenta;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
   flex: 1;
+  padding: rem(16px) 0;
 
   &__stars {
     @include breakpoint-up(medium) {
-      padding: 0 rem(16px);
+      -webkit-box-flex: 0;
+      -ms-flex: 0 1 rem(181px);
       flex: 0 1 rem(181px);
+      padding: 0 rem(16px);
     }
   }
 
@@ -19,10 +23,10 @@
   }
 
   &__text {
-    margin-top: rem(8.25px);
-    font-weight: 700;
     font-size: rem(13px);
+    font-weight: 700;
     line-height: rem(15px);
+    margin-top: rem(8.25px);
 
     @include breakpoint-up(medium) {
       margin-top: 0;
@@ -45,6 +49,8 @@
 
   &__1 {
     @include breakpoint-up(medium) {
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
       justify-content: start;
     }
   }
@@ -53,6 +59,8 @@
     margin-top: rem(16px);
 
     @include breakpoint-up(medium) {
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
       justify-content: center;
     }
   }
@@ -61,16 +69,24 @@
     margin-top: rem(16px);
 
     @include breakpoint-up(medium) {
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
       justify-content: end;
     }
   }
 
   @include breakpoint-up(medium) {
-    // width: clamp(rem(445px), rem(445px), rem(445px));
-    justify-content: start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 rem(445px);
     flex: 0 1 rem(445px);
+    // width: clamp(rem(445px), rem(445px), rem(445px));
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
     min-height: rem(56px);
     padding: 0;
-    align-items: center;
   }
 }

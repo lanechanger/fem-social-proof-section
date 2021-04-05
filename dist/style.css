@@ -12,14 +12,14 @@ html {
 }
 
 body {
-  height: 100%;
-  min-height: 100vh;
-  font-family: 'Spartan', sans-serif;
-  font-size: 0.9375rem;
-  line-height: 1.5;
-  text-align: center;
   background: url(/images/bg-pattern-top-mobile.svg) top, url(/images/bg-pattern-bottom-mobile.svg) bottom;
   background-repeat: no-repeat;
+  font-family: 'Spartan', sans-serif;
+  font-size: 0.9375rem;
+  height: 100%;
+  line-height: 1.5;
+  min-height: 100vh;
+  text-align: center;
 }
 
 @media screen and (min-width: 640px) {
@@ -30,8 +30,8 @@ body {
 }
 
 .attribution {
-  margin-top: 1rem;
   font-size: 11px;
+  margin-top: 1rem;
   text-align: center;
 }
 
@@ -45,9 +45,9 @@ body {
 
 @media screen and (min-width: 640px) {
   .l-header {
-    text-align: left;
-    margin-top: 0;
     flex: 0 1 27.8125rem;
+    margin-top: 0;
+    text-align: left;
   }
 }
 
@@ -57,9 +57,9 @@ body {
 
 @media screen and (min-width: 640px) {
   .l-ratings {
+    flex: 0 1 33.75rem;
     justify-content: center;
     margin-top: 0;
-    flex: 0 1 33.75rem;
   }
 }
 
@@ -75,14 +75,14 @@ body {
 
 .l-site-container {
   margin: 1.5rem auto;
-  width: 77vw;
   min-width: 20.4375rem;
+  width: 77vw;
 }
 
 @media screen and (min-width: 640px) {
   .l-site-container {
-    padding: 7.9375rem 2rem 3.875rem 2rem;
     flex: 0 1 69.375rem;
+    padding: 7.9375rem 2rem 3.875rem 2rem;
   }
 }
 
@@ -107,9 +107,9 @@ body {
 
 @media screen and (min-width: 640px) {
   .l-flex-center {
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
   }
 }
 
@@ -121,16 +121,16 @@ body {
 
 .rating {
   background-color: #f7f2f7;
-  color: #502050;
   border-radius: 0.5rem;
-  padding: 1rem 0;
+  color: #502050;
   flex: 1;
+  padding: 1rem 0;
 }
 
 @media screen and (min-width: 640px) {
   .rating__stars {
-    padding: 0 1rem;
     flex: 0 1 11.3125rem;
+    padding: 0 1rem;
   }
 }
 
@@ -139,10 +139,10 @@ body {
 }
 
 .rating__text {
-  margin-top: 0.51562rem;
-  font-weight: 700;
   font-size: 0.8125rem;
+  font-weight: 700;
   line-height: 0.9375rem;
+  margin-top: 0.51562rem;
 }
 
 @media screen and (min-width: 640px) {
@@ -180,28 +180,28 @@ body {
 
 @media screen and (min-width: 640px) {
   .rating {
-    justify-content: start;
+    align-items: center;
     flex: 0 1 27.8125rem;
+    justify-content: start;
     min-height: 3.5rem;
     padding: 0;
-    align-items: center;
   }
 }
 
 .card, .card__1, .card__2, .card__3 {
   background-color: #502050;
-  color: white;
   border-radius: 0.5rem;
-  padding: 2.5rem 2rem 2rem 2rem;
+  color: white;
   font-size: 0.8125rem;
-  text-align: left;
   margin-top: 1rem;
+  padding: 2.5rem 2rem 2rem 2rem;
+  text-align: left;
 }
 
 .card__portrait {
   border-radius: 50%;
-  width: clamp(2.5rem, 100%, 2.5rem);
   height: clamp(2.5rem, 100%, 2.5rem);
+  width: clamp(2.5rem, 100%, 2.5rem);
 }
 
 .card__person {
@@ -213,16 +213,16 @@ body {
 }
 
 .card__role {
-  margin-top: 0.3125rem;
   color: #ee68a4;
+  margin-top: 0.3125rem;
 }
 
 .card__testimonial {
   display: inline-block;
-  margin-top: 1.625rem;
   font-weight: 500;
-  line-height: calc(22/13);
   letter-spacing: -0.01615rem;
+  line-height: calc(22/13);
+  margin-top: 1.625rem;
 }
 
 @media screen and (min-width: 640px) {
@@ -254,11 +254,11 @@ body {
 }
 
 .l-header > h1 {
-  font-weight: 700;
-  font-size: 2rem;
-  line-height: 1;
-  letter-spacing: -0.07143rem;
   color: #502050;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.07143rem;
+  line-height: 1;
 }
 
 @media screen and (min-width: 640px) {
@@ -269,10 +269,10 @@ body {
 }
 
 .l-header > p {
-  margin-top: 1.125rem;
-  font-weight: 500;
-  line-height: calc(25/15);
-  letter-spacing: -0.03125rem;
   color: #937b92;
+  font-weight: 500;
+  letter-spacing: -0.03125rem;
+  line-height: calc(25/15);
+  margin-top: 1.125rem;
 }
 /*# sourceMappingURL=style.css.map */

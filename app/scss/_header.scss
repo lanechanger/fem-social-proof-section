@@ -1,10 +1,10 @@
 .l-header> {
   h1 {
-    font-weight: 700;
-    font-size: rem(32px);
-    line-height: 1;
-    letter-spacing: rem(-1.14286px);
     color: $veryDarkMagenta;
+    font-size: rem(32px);
+    font-weight: 700;
+    letter-spacing: rem(-1.14286px);
+    line-height: 1;
 
     @include breakpoint-up(medium) {
       font-size: rem(48px);
@@ -13,10 +13,10 @@
   }
 
   p {
-    margin-top: rem(18px);
-    font-weight: 500;
-    line-height: calc(25/15);
-    letter-spacing: rem(-0.5px);
     color: $darkGrayishMagenta;
+    font-weight: 500;
+    letter-spacing: rem(-0.5px);
+    line-height: calc(25/15);
+    margin-top: rem(18px);
   }
 }
