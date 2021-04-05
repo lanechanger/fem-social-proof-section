@@ -29,12 +29,11 @@
   &site-container {
     margin: rem(24px) auto;
     width: 77vw;
-    width: clamp(rem(327px), 77vw, rem(1110px));
+    min-width: rem(327px);
 
     @include breakpoint-up(medium) {
-      padding-top: rem(127px);
-      padding-bottom: rem(62px);
-      margin: auto;
+      padding: rem(127px) rem(32px) rem(62px) rem(32px);
+      flex: 0 1 rem(1110px);
     }
   }
 
