@@ -27,7 +27,7 @@
   }
 
   &site-container {
-    margin: rem(24px);
+    margin: rem(24px) auto;
     width: 77vw;
     width: clamp(rem(327px), 77vw, rem(1110px));
 

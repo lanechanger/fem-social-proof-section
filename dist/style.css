@@ -73,7 +73,7 @@ body {
 }
 
 .l-site-container {
-  margin: 1.5rem;
+  margin: 1.5rem auto;
   width: 77vw;
   width: clamp(20.4375rem, 77vw, 69.375rem);
 }
