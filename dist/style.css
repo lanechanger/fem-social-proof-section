@@ -52,11 +52,12 @@ body {
 }
 
 .l-ratings {
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
 }
 
 @media screen and (min-width: 640px) {
   .l-ratings {
+    justify-content: center;
     margin-top: 0;
     flex: 0 1 33.75rem;
   }
@@ -123,7 +124,6 @@ body {
   color: #502050;
   border-radius: 0.5rem;
   padding: 1rem 0;
-  margin-top: 1rem;
   flex: 1;
 }
 
@@ -158,10 +158,18 @@ body {
   }
 }
 
+.rating__2 {
+  margin-top: 1rem;
+}
+
 @media screen and (min-width: 640px) {
   .rating__2 {
     justify-content: center;
   }
+}
+
+.rating__3 {
+  margin-top: 1rem;
 }
 
 @media screen and (min-width: 640px) {

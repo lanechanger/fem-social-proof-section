@@ -10,9 +10,10 @@
   }
 
   &ratings {
-    margin-top: rem(24px);
+    margin-top: rem(40px);
 
     @include breakpoint-up(medium) {
+      justify-content: center;
       margin-top: 0;
       flex: 0 1 rem(540px);
     }
