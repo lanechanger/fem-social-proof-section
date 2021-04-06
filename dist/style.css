@@ -130,7 +130,7 @@ body {
 
 @media screen and (min-width: 640px) {
   .rating__stars {
-    flex: 0 1 11.3125rem;
+    flex: 0 0 11.3125rem;
     padding: 0 1rem;
   }
 }
