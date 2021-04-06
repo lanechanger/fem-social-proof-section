@@ -175,7 +175,7 @@ body {
 
 @media screen and (min-width: 640px) {
   .rating__3 {
-    justify-content: end;
+    justify-content: flex-end;
   }
 }
 
